@@ -15,8 +15,9 @@ Personal portfolio website for **Daniel Enantomhen** (`@dantelarge`).
 - **Static assets:** `public/` (profile.jpeg, dashboard-bg.png)
 - **Profile photo:** `public/profile.jpeg`
 - **Background image:** `public/dashboard-bg.png` (analytics dashboard screenshot)
-- **GitHub repo:** https://github.com/dantelarge/daniel-portfolio
-- **Live URL:** https://dantelarge.github.io/daniel-portfolio/
+- **GitHub repo:** https://github.com/dantelarge/portfolio-v2
+- **Live URL:** https://dantelarge.vercel.app
+- **Deployed via:** Vercel (auto-deploys on push to master)
 
 ---
 
