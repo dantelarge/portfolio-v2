@@ -1,19 +1,24 @@
 const skillGroups = [
   {
+    label: 'Data Analytics',
+    skills: [
+      'Power BI', 'DAX', 'Excel', 'Pivot Tables', 'Power Query',
+      'R', 'tidyverse', 'ggplot2', 'dplyr', 'tidymodels',
+      'Statistical Analysis', 'Time Series Analysis', 'Data Cleaning & Transformation',
+      'Dashboard Development', 'KPI Definition', 'Data Visualisation',
+    ],
+  },
+  {
     label: 'AI & APIs',
     skills: ['Claude API', 'Claude Code', 'Google Gemini', 'Anthropic SDK', 'AI Agents', 'Prompt Engineering'],
   },
   {
     label: 'Languages',
-    skills: ['Python', 'JavaScript', 'Node.js', 'Express.js', 'R', 'HTML / CSS', 'SQL'],
-  },
-  {
-    label: 'Data & Analytics',
-    skills: ['Streamlit', 'Power BI', 'Excel Power Query', 'ggplot2', 'tidyverse', 'DAX', 'Time Series Analysis'],
+    skills: ['Python', 'JavaScript', 'Node.js', 'Express.js', 'SQL', 'HTML / CSS'],
   },
   {
     label: 'DevOps & Cloud',
-    skills: ['Render', 'GitHub', 'Cloudinary', 'Paystack', 'REST APIs', 'PWA'],
+    skills: ['Vercel', 'Render', 'GitHub', 'Cloudinary', 'Paystack', 'REST APIs', 'PWA', 'Streamlit'],
   },
 ]
 

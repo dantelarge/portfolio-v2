@@ -104,6 +104,39 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80',
     featured: false,
   },
+  {
+    id: 10,
+    title: 'Revenue Performance Dashboard',
+    description: 'Interactive Power BI dashboard tracking product revenue, activation rates, and manager-level KPIs with DAX-driven time intelligence and drill-through analysis.',
+    tags: ['Power BI', 'DAX', 'KPI Tracking'],
+    category: ['data'],
+    link: 'https://github.com/dantelarge',
+    live: false,
+    image: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?w=800&q=80',
+    featured: true,
+  },
+  {
+    id: 11,
+    title: 'Economic Time Series Analysis',
+    description: 'Multi-decade regression and time series analysis in R — exploring economic trends and structural patterns across historical datasets with tidyverse and ggplot2.',
+    tags: ['R', 'Regression', 'Time Series'],
+    category: ['data'],
+    link: 'https://github.com/dantelarge',
+    live: false,
+    image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&q=80',
+    featured: false,
+  },
+  {
+    id: 12,
+    title: 'Sales & Customer Insights Dashboard',
+    description: 'Excel-based sales performance dashboard using Pivot Tables and Power Query — delivering dynamic customer segmentation and actionable revenue insights.',
+    tags: ['Excel', 'Power Query', 'Pivot Tables'],
+    category: ['data'],
+    link: 'https://github.com/dantelarge',
+    live: false,
+    image: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80',
+    featured: false,
+  },
 ]
 
 const filters = [
@@ -132,7 +165,7 @@ export function ProjectsSection() {
             <p className="text-xs font-semibold tracking-widest uppercase text-teal-500 mb-2">Portfolio</p>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">What I&apos;ve Built</h2>
             <p className="text-muted-foreground mt-2 text-sm max-w-md">
-              {filtered.length} project{filtered.length !== 1 ? 's' : ''} — real apps shipped to production with AI, Node.js, Python &amp; R.
+              {filtered.length} project{filtered.length !== 1 ? 's' : ''} — data dashboards, AI-powered apps, and full-stack web products shipped to production.
             </p>
           </div>
           <div className="flex gap-2 flex-wrap">

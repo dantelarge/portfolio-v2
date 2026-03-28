@@ -131,10 +131,10 @@ export function HeroSection() {
               {/* Role chips */}
               <div className="flex items-center gap-3 justify-center lg:justify-start mb-5 flex-wrap">
                 <span className="flex items-center gap-1.5 text-sm text-white/80 bg-white/10 border border-white/15 px-3 py-1 rounded-full">
-                  <Briefcase className="size-3.5 text-teal-400" /> AI Developer
+                  <Briefcase className="size-3.5 text-teal-400" /> Data Analyst
                 </span>
                 <span className="flex items-center gap-1.5 text-sm text-white/80 bg-white/10 border border-white/15 px-3 py-1 rounded-full">
-                  <Briefcase className="size-3.5 text-indigo-400" /> Data Analyst
+                  <Briefcase className="size-3.5 text-indigo-400" /> AI Developer
                 </span>
                 <span className="flex items-center gap-1.5 text-sm text-white/80 bg-white/10 border border-white/15 px-3 py-1 rounded-full">
                   <MapPin className="size-3.5 text-rose-400" /> Abuja, Nigeria
@@ -143,8 +143,8 @@ export function HeroSection() {
 
               {/* Tagline */}
               <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-lg mx-auto lg:mx-0 mb-10">
-                I build smart, production-ready tools — from AI-powered apps and
-                dashboards to full-stack web products — using Claude Code and modern AI APIs.
+                Certified Data Analyst specialising in Power BI, R, and Excel — I also build
+                AI-powered apps and full-stack web products using Claude Code and modern AI APIs.
               </p>
 
               {/* CTA */}
@@ -162,10 +162,10 @@ export function HeroSection() {
               {/* Stats */}
               <div className="flex items-center justify-center lg:justify-start border-t border-white/15 pt-8">
                 {[
-                  { num: '9+', label: 'Projects' },
-                  { num: '4',  label: 'Live apps' },
-                  { num: '6+', label: 'AI tools'  },
-                  { num: '3',  label: 'Industries' },
+                  { num: '12+', label: 'Projects'  },
+                  { num: '4',   label: 'Live apps' },
+                  { num: '6+',  label: 'AI tools'  },
+                  { num: '3',   label: 'Industries' },
                 ].map((stat, i) => (
                   <React.Fragment key={stat.label}>
                     {i > 0 && <div className="mx-6 h-8 w-px bg-white/15 shrink-0" />}
@@ -206,7 +206,7 @@ export function HeroSection() {
               {/* Stat cards */}
               <div className="grid grid-cols-2 gap-3 w-64">
                 {[
-                  { label: 'Projects', value: '9+',  color: 'border-teal-500/30',   text: 'text-teal-400'   },
+                  { label: 'Projects', value: '12+', color: 'border-teal-500/30',   text: 'text-teal-400'   },
                   { label: 'Live Apps', value: '4',  color: 'border-green-500/30',  text: 'text-green-400'  },
                   { label: 'AI Tools',  value: '6+', color: 'border-indigo-500/30', text: 'text-indigo-400' },
                   { label: 'Industries',value: '3',  color: 'border-cyan-500/30',   text: 'text-cyan-400'   },
@@ -220,7 +220,7 @@ export function HeroSection() {
 
               {/* Skill tags */}
               <div className="flex flex-wrap gap-2 justify-center max-w-xs">
-                {['Claude API', 'Node.js', 'Python', 'Power BI', 'Streamlit'].map(skill => (
+                {['Power BI', 'R', 'Excel', 'Claude API', 'Python'].map(skill => (
                   <span key={skill} className="text-xs font-medium px-3 py-1 rounded-full bg-white/10 border border-white/15 text-white/70">
                     {skill}
                   </span>
